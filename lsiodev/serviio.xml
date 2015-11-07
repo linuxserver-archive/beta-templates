@@ -15,7 +15,7 @@
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where serviio should store settings, logs and configuration[br]
-  [b]/media[/b] Path(s) to your media folders, add more as necessary[br]
+  [b]/movies[/b] Path(s) to your media folders, add more as necessary, eg for tv shows and music etc.[br]
   [b]/tmp[/b] Transcode folder[br]
   </Description>
   <Project>http://serviio.org/</Project>
@@ -67,7 +67,7 @@
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/media</ContainerDir>
+      <ContainerDir>/movies</ContainerDir>
       <Mode>ro</Mode>
     </Volume>
     <Volume>
