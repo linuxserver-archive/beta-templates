@@ -52,6 +52,6 @@
     </Volume>
   </Data>
   <WebUI></WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png</Icon>
+  <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/redis-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/redis-icon.png</Icon>
 </Container>
