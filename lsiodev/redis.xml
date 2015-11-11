@@ -10,7 +10,7 @@
   [b]09.11.2015:[/b] Initial Release. 
   </Changes>
   <Name>redis</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
+  <Support></Support>
   <Description>
   Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.[br]
   [br]
@@ -20,8 +20,8 @@
   </Description>
   <Project>http://redis.io/</Project>
   <Overview>Redis is an open source, BSD licensed, advanced key-value cache and store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.</Overview>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/redis/</Registry>
-  <Repository>linuxserver/redis</Repository>
+  <Registry>https://hub.docker.com/r/lsiodev/redis/</Registry>
+  <Repository>lsiodev/redis</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -52,7 +52,6 @@
     </Volume>
   </Data>
   <WebUI></WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/redis-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/redis-icon.png</Icon>
-  <ExtraParams></ExtraParams>
+  <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png</Icon>
 </Container>
