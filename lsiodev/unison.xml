@@ -10,10 +10,10 @@
   </Changes>
   <Name>unison</Name>
   <Support></Support>
-  <Description
-Extremely early test version,
+  <Description>
+Extremely early test version
   </Description>
-  <Overview>Extremely early test version,</Overview>
+  <Overview>Extremely early test version</Overview>
   <Project></Project>
   <Registry>https://hub.docker.com/r/lsiodev/unison/</Registry>
   <Repository>lsiodev/unison</Repository>
