@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>True</Beta>
+<Category>Other:</Category>
+<Date>2015-11-06</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Unison Change Log[/font][/center]
+  </Changes>
+  <Name>unison</Name>
+  <Support></Support>
+  <Description
+ [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] blah blah blah[br]
+  </Description>
+  <Overview>Extremely early test version,</Overview>
+  <Project></Project>
+  <Registry>https://hub.docker.com/r/lsiodev/unison/</Registry>
+  <Repository>lsiodev/unison</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>22</HostPort>
+        <ContainerPort>22</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/unison-icon.png</Icon>
+</Container>
+
