@@ -18,8 +18,8 @@
   </Description>
   <Project>http://ejurgensen.github.io/forked-daapd/</Project>
   <Overview>DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio.</Overview>
-  <Registry></Registry>
-  <Repository></Repository>
+  <Registry>https://hub.docker.com/r/lsiodev/daapd/</Registry>
+  <Repository>lsiodev/daapd</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
