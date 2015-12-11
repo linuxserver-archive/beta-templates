@@ -27,11 +27,11 @@
     </Variable>
     <Variable>
       <Name>PGID</Name>
-      <Value>99</Value>
+      <Value>100</Value>
     </Variable>
     <Variable>
       <Name>PUID</Name>
-      <Value>100</Value>
+      <Value>99</Value>
     </Variable>
   </Environment>
   <Networking>
