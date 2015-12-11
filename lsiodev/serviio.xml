@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Beta>True</Beta>
+<Beta>False</Beta>
 <Category>MediaServer:Video MediaServer:Music</Category>
-<Date>2015-11-06</Date>
+<Date>2015-12-11</Date>
 <Name>serviio</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
