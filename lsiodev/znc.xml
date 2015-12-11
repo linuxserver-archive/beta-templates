@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Network:Messenger</Category>
+  <Date>2015-12-11</Date>
+  <Name>znc</Name>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]ZNC Change Log[/font][/center]</Changes>
+  <Support>http://lime-technology.com/forum/index.php?topic=44605.0</Support>
+  <Description>ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
+  [br][br]
+  [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where ZNC should store settings, logs and configuration[br]
+  </Description>
+  <Project>http://wiki.znc.in/ZNC</Project>
+  <Overview>ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.</Overview>
+  <Registry>https://registry.hub.docker.com/u/lsiodev/znc/</Registry>
+  <Repository>lsiodev/znc</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>6501</HostPort>
+        <ContainerPort>6501</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/znc</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/znc-icon.png</Icon>
+  <WebUI>http://[IP]:[PORT:6501]/</WebUI>
+  <ExtraParams></ExtraParams>
+</Container>
