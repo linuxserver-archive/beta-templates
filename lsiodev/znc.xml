@@ -49,6 +49,6 @@
   <Version></Version>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/znc-icon.png</Icon>
-  <WebUI>http://[IP]:[PORT:6501]/</WebUI>
+  <WebUI>https://[IP]:[PORT:6501]/</WebUI>
   <ExtraParams></ExtraParams>
 </Container>
