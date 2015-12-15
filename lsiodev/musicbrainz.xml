@@ -2,11 +2,13 @@
 <Container>
 <Beta>False</Beta>
 <Category>MediaApp:Music Other: Tools:</Category>
-<Date>2015-12-11</Date>
+<Date>2015-12-15</Date>
   <Name>musicbrainz</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
-[center][font size=4]musicbrainz Change Log[/font][/center]</Changes>
+[center][font size=4]musicbrainz Change Log[/font][/center]
+[b]15.12.2015[/b] Switch to the new production branch for latest stable code
+</Changes>
   <Support>http://lime-technology.com/forum/index.php?topic=44606.0</Support>
   <Description> MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.
   [br][br]
