@@ -2,11 +2,12 @@
 <Container>
 <Beta>False</Beta>
 <Category>MediaApp:Music MediaServer:Music</Category>
-<Date>2015-12-17</Date>
+<Date>2015-01-04</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
   [center][font size=4]Daapd Change Log[/font][/center]
+  [b]04.01.2016:[/b] Disable ipv6 set in config by default. 
   [b]17.12.2015:[/b] Add spotify support. 
   [b]16.11.2015:[/b] Initial Release. 
   </Changes>
