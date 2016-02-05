@@ -10,11 +10,11 @@
   [b]05.02.2016:[/b] Initial Release. 
   </Changes>
   <Name>plexrequests</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=44210</Support>
+  <Support></Support>
   <Description>Simple automated way for users to request new content for Plex[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all plexrequests config files [br]
-  [b]Setting URL_BASE variable to /<name> will enable reverse proxy of this container[/b]
+  [b]Setting URL_BASE variable to /requests will enable reverse proxy of this container[/br]substitute requests for another name if you wish[/b]
 </Description>
   <Project>http://plexrequests.8bits.ca/</Project>
   <Overview>Simple automated way for users to request new content for Plex.</Overview>
