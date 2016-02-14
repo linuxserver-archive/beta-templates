@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>True</Beta>
+<Category>Cloud: Network:Other Productivity: Tools:</Category>
+<Date>2016-02-14</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Owncloud Change Log[/font][/center]
+  </Changes>
+  <Name>owncloud</Name>
+  <Support></Support>
+  <Description>
+  OwnCloud provides universal access to your files via the web, your computer or your mobile devices — wherever you are. Mariadb 10.1 is built into the image. Built with php7, mariadb 10.1 and nginx 1.9.10 
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where owncloud should store its config files[br]
+  [b]/data[/b] Owncloud data folder[br]
+  </Description>
+  <Overview>OwnCloud provides universal access to your files via the web, your computer or your mobile devices — wherever you are. Mariadb 10.1 is built into the image. Built with php7, mariadb 10.1 and nginx 1.9.10</Overview>
+  <Project>https://owncloud.org/</Project>
+  <Registry>https://hub.docker.com/r/lsiodev/owncloud/</Registry>
+  <Repository>lsiodev/owncloud</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>443</HostPort>
+        <ContainerPort>443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>https://[IP]:[PORT:443]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/owncloud-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/owncloud-icon.png</Icon>
+</Container>
+
