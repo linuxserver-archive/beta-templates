@@ -31,6 +31,10 @@
       <Name>PGID</Name>
       <Value>100</Value>
     </Variable>
+        <Variable>
+      <Name>DB_PASS</Name>
+      <Value>owncloud</Value>
+    </Variable>
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
