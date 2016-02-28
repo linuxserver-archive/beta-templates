@@ -14,7 +14,7 @@
 Extremely early test version
   </Description>
   <Overview>Extremely early test version</Overview>
-  <Project></Project>
+  <Project>http://www.seas.upenn.edu/~bcpierce/unison/</Project>
   <Registry>https://hub.docker.com/r/lsiodev/unison/</Registry>
   <Repository>lsiodev/unison</Repository>
   <BindTime>true</BindTime>

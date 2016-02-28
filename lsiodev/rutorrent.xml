@@ -17,7 +17,7 @@
   [b]/downloads[/b] Downloads folder[br]
   </Description>
   <Overview>TEST container TEST container TEST container TEST container TEST container, did i mention this is a TEST container</Overview>
-  <Project></Project>
+  <Project>https://github.com/Novik/ruTorrent</Project>
   <Registry>https://hub.docker.com/r/lsiodev/rutorrent/</Registry>
   <Repository>lsiodev/rutorrent</Repository>
   <BindTime>true</BindTime>
