@@ -15,7 +15,7 @@
   </Description>
   <Project>http://wiki.znc.in/ZNC</Project>
   <Overview>ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.</Overview>
-  <Registry>https://registry.hub.docker.com/u/lsiodev/znc/</Registry>
+  <Registry>https://hub.docker.com/r/lsiodev/znc/</Registry>
   <Repository>lsiodev/znc</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
