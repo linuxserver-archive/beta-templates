@@ -2,11 +2,12 @@
 <Container>
 <Beta>False</Beta>
 <Category>MediaApp:Music Other: Tools:</Category>
-<Date>2016-02-26</Date>
+<Date>2016-03-21</Date>
   <Name>musicbrainz</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]musicbrainz Change Log[/font][/center]
+[b]21.03.2016[/b] Bump to latest server release
 [b]26.02.2016[/b] Bump to latest server release
 [b]03.01.2016[/b] Move d/l of db dump higher up initialise phase, take out d/l of sitemaps
 missing from last 2 data dumps.
