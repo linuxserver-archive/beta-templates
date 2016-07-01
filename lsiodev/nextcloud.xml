@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>nextcloud</Name>
   <Repository>lsiodev/nextcloud</Repository>
-  <Registry>https://hub.docker.com/r/lsiodev/nextcloud/~/dockerfile/</Registry>
+  <Registry>https://hub.docker.com/r/lsiodev/nextcloud</Registry>
   <Project>https://nextcloud.com/</Project>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
