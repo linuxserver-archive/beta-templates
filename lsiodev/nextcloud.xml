@@ -3,6 +3,7 @@
   <Name>nextcloud</Name>
   <Repository>lsiodev/nextcloud</Repository>
   <Registry>https://hub.docker.com/r/lsiodev/nextcloud/~/dockerfile/</Registry>
+  <Project>https://nextcloud.com/</Project>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/lsiodev/nextcloud/</Support>
