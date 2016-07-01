@@ -6,7 +6,7 @@
   <Project>https://nextcloud.com/</Project>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/lsiodev/nextcloud/</Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=50090.0</Support>
   <Overview>Nextcloud is an open source, self-hosted file sync &amp;amp; communication app platform. Access &amp;amp; sync your files, contacts, calendars and communicate &amp;amp; collaborate across your devices. You decide what happens with your data, where it is and who can access it!</Overview>
   <Category/>
   <WebUI>https://[IP]:[PORT:443]/</WebUI>
