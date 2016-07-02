@@ -5,12 +5,12 @@
   <Registry>https://hub.docker.com/r/lsiodev/satip/~/dockerfile/</Registry>
   <Network>host</Network>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/lsiodev/satip/</Support>
+  <Support>https://lime-technology.com/forum/index.php?topic=50118.0</Support>
   <Overview>Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
   
   The application is designed to stream the requested data to multiple clients (even with one dvb card) in the same time while opening different pids.
   </Overview>
-  <Beta>False</Beta>
+  <Beta>True</Beta>
   <Category>MediaApp:Video MediaApp:Other MediaServer:Video MediaServer:Other Other: Tools:</Category>
   <Date>2016-07-01</Date> 
   <WebUI>http://[IP]:[PORT:8875]</WebUI>
