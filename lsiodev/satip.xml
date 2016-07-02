@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>satip</Name>
+  <BaseImage>lsiobase/alpine</BaseImage>
   <Repository>lsiodev/satip</Repository>
   <Project>https://github.com/catalinii/minisatip</Project>
   <Registry>https://hub.docker.com/r/lsiodev/satip/</Registry>
