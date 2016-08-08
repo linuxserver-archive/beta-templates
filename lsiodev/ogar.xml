@@ -55,5 +55,5 @@
   <WebUI></WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ogar-icon.png</Icon>
-<BaseImage></BaseImage>
+<BaseImage>linuxserver/baseimage.python</BaseImage>
 </Container>

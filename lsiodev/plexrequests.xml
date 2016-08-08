@@ -62,5 +62,5 @@
 <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-icon.png</Icon>
-<BaseImage></BaseImage>
+<BaseImage>linuxserver/baseimage</BaseImage>
 </Container>

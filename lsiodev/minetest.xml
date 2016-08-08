@@ -54,6 +54,6 @@
   <WebUI></WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png</Icon>
-<BaseImage></BaseImage>
+<BaseImage>linuxserver/baseimage</BaseImage>
 </Container>
 

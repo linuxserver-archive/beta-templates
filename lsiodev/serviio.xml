@@ -81,6 +81,6 @@
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/serviio-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/serviio-icon.png</Icon>
   <WebUI>http://[IP]:[PORT:23423]/console</WebUI>
-<BaseImage></BaseImage>
+<BaseImage>linuxserver/baseimage</BaseImage>
 </Container>
 
