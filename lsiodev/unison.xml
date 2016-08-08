@@ -50,5 +50,6 @@ Extremely early test version
   <WebUI></WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/unison-icon.png</Icon>
+<BaseImage></BaseImage>
 </Container>
 

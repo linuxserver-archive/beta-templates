@@ -65,4 +65,5 @@
 <WebUI></WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-icon.png</Icon>
+<BaseImage></BaseImage>
 </Container>
