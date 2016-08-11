@@ -54,5 +54,8 @@
   <WebUI></WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/redis-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/redis-icon.png</Icon>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>linuxserver/baseimage</BaseImage>
 </Container>
